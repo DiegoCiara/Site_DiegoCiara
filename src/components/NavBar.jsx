@@ -28,7 +28,7 @@ export function NavBar() {
     children={<>      <a href="/">
       {Logo()}</a>
       <div className="pages Desk">
-        <a href=""><Button className="NavItem">Entre em contato</Button></a>
+        <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`}><Button className="NavItem">Entre em contato</Button></a>
         <a href="https://github.com/DiegoCiara"><Button className="NavItem">Github</Button></a>
         <a href="https://www.linkedin.com/in/diegociara"><Button className="NavItem">Linkedin</Button></a>
         <a href="/"><Button className="NavItem">Insta</Button></a>
@@ -49,7 +49,7 @@ export function NavBar() {
             <div style={{height:'1px', width:'80%', backgroundColor:'#cacaca'}}></div>
           <List>
             <div style={{display:'flex', width:'60vw', flexDirection:'column', alignItems:'center'}}>
-          <a href="/about"><Button className="NavItem">Entre em contato</Button></a>
+          <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`}><Button className="NavItem">Entre em contato</Button></a>
           <a href="https://github.com/DiegoCiara"><Button className="NavItem">Git</Button></a>
           <a href="https://www.linkedin.com/in/diegociara"><Button className="NavItem">Linkedin</Button></a>
           <a href="https://instagram.com/sr.ciara?igshid=OGQ5ZDc2ODk2ZA==."><Button className="NavItem">Insta</Button></a>            </div>
