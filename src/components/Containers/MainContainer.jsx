@@ -18,7 +18,7 @@ export function MainContainer() {
                 <Button className='NavItem' variant='contained' color="primary">Entre em contato</Button>
               </a>
               <a href="https://github.com/DiegoCiara">
-                <Button className='NavItem' color="primary" variant='outlined'>Projetos</Button>
+                <Button className='NavItem' color="primary" variant='outlined'>Github</Button>
               </a>
                 
             </div>
