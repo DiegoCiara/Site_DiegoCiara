@@ -28,12 +28,9 @@ export function NavBar() {
     children={<>      <a href="/">
       {Logo()}</a>
       <div className="pages Desk">
-        <a href="/projects">
-          <Button className="NavItem">Meus Projetos</Button>
-        </a>
-        <a href="/about"><Button className="NavItem">Entre em contato</Button></a>
-        <a href="/"><Button className="NavItem">Git</Button></a>
-        <a href="/"><Button className="NavItem">Linkedin</Button></a>
+        <a href=""><Button className="NavItem">Entre em contato</Button></a>
+        <a href="https://github.com/DiegoCiara"><Button className="NavItem">Github</Button></a>
+        <a href="https://www.linkedin.com/in/diegociara"><Button className="NavItem">Linkedin</Button></a>
         <a href="/"><Button className="NavItem">Insta</Button></a>
       </div>
       <div className='Mobile'>
@@ -52,14 +49,10 @@ export function NavBar() {
             <div style={{height:'1px', width:'80%', backgroundColor:'#cacaca'}}></div>
           <List>
             <div style={{display:'flex', width:'60vw', flexDirection:'column', alignItems:'center'}}>
-
-            <a href="/projects">
-          <Button className="NavItem">Meus Projetos</Button>
-        </a>
           <a href="/about"><Button className="NavItem">Entre em contato</Button></a>
-          <a href="/"><Button className="NavItem">Git</Button></a>
-          <a href="/"><Button className="NavItem">Linkedin</Button></a>
-          <a href="/"><Button className="NavItem">Insta</Button></a>            </div>
+          <a href="https://github.com/DiegoCiara"><Button className="NavItem">Git</Button></a>
+          <a href="https://www.linkedin.com/in/diegociara"><Button className="NavItem">Linkedin</Button></a>
+          <a href="https://instagram.com/sr.ciara?igshid=OGQ5ZDc2ODk2ZA==."><Button className="NavItem">Insta</Button></a>            </div>
           </List>
           <div></div>
           </div>
