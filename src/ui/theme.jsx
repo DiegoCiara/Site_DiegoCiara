@@ -52,7 +52,7 @@ const theme = createTheme({
       },
       variants: [
         {
-          props: { variant: "contained", color: "secondary" },
+          props: { variant: "outlined", color: "secondary" },
           style: {
             color: "white",
           },

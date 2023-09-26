@@ -1,14 +1,14 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router
 } from 'react-router-dom'
-import { ThemeProvider } from "@material-ui/core";
 import { NavBar } from './components/NavBar';
 import { Home } from './pages/Home';
 import { Projects } from './pages/Projects';
 import { About } from './pages/About';
 import { MailSuccess } from './pages/MailSuccess';
-import './App.css'
-import theme from './global/ThemeProvider';
+import './App.css';
+import { ThemeProvider } from '@material-ui/core';
+import theme from './ui/theme';
 
 function App() {
   return (
