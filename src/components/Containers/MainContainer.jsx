@@ -17,7 +17,7 @@ export function MainContainer() {
               <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`} target='_blank'>
                 <Button className='NavItem' variant='contained' color="primary">Entre em contato</Button>
               </a>
-              <a href="/projects">
+              <a href="https://github.com/DiegoCiara">
                 <Button className='NavItem' color="primary" variant='outlined'>Projetos</Button>
               </a>
                 
