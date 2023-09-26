@@ -17,14 +17,14 @@ export const TopProjects = [
   {
     type:'SaaS',
     name:'Wave CRM',
-    image:'/src/assets/CardsProjects/WaveCRM.png',
+    image:'CardsProjects/WaveCRM.png',
     description:'CRM de vendas para empresas B2B',
     path: 'https://github.com/DiegoCiara/Wave_CRM'
   },
   {
     type:'Tool',
     name:'NewsLetter',
-    image:'/src/assets/CardsProjects/Newsletter.png',
+    image:'CardsProjects/Newsletter.png',
     description:'Aplicativo de rede social para empresas',
     path: 'https://github.com/DiegoCiara/Newsletter',
     deploy:'https://newsletter-blue.vercel.app/'
@@ -32,7 +32,7 @@ export const TopProjects = [
   {
     type:'Tool',
     name:'Guide',
-    image:'/src/assets/CardsProjects/Guide.png',
+    image:'CardsProjects/Guide.png',
     description:'Construtor de Documentação',
     path: 'https://github.com/DiegoCiara/Guide',
     deploy:'https://guide-two.vercel.app/',
@@ -40,7 +40,7 @@ export const TopProjects = [
   {
     type:'Mobile',
     name:'Sinergy',
-    image:'/src/assets/CardsProjects/Sinergy.png',
+    image:'CardsProjects/Sinergy.png',
     description:'Aplicativo de rede social para empresas',
     path: 'https://github.com/DiegoCiara/Sinergy_Mobile',
     deploy: null,
@@ -48,7 +48,7 @@ export const TopProjects = [
   {
     type:'IA',
     name:'Private GPT4',
-    image:'/src/assets/CardsProjects/GPT-4.jpg',
+    image:'CardsProjects/GPT-4.jpg',
     description:'Inteligência Artificial para processamento de linguagem utilizando o GPT-4',
     path: 'https://github.com/DiegoCiara/privateGPT4',
     deploy: null,
