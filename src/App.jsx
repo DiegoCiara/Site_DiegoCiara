@@ -4,11 +4,12 @@ import { Route, Routes, BrowserRouter as Router
 import { NavBar } from './components/NavBar';
 import { Home } from './pages/Home';
 import { Projects } from './pages/Projects';
-import { About } from './pages/About';
 import { MailSuccess } from './pages/MailSuccess';
 import './App.css';
 import { ThemeProvider } from '@material-ui/core';
 import theme from './ui/theme';
+import { Contact } from './components/Containers/Contact';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -18,12 +19,12 @@ function App() {
             <Routes>
               <Route path='/' element={<Home/>}/>
               <Route path='/projects' element={<Projects/>}/>
-              <Route path='/about' element={<About/>}/>
+              <Route path='/contact' element={<Contact class="Main Contact"/>}/>
               <Route path='/mailSuccess' element={<MailSuccess/>}/>
               <Route path="*" element={<Home/>} />
             </Routes>
           </Router>
-        {/* <Footer/> */}
+        <Footer/>
    </ThemeProvider>
   );
 }

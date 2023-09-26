@@ -30,7 +30,7 @@ export function NavBar() {
     <a href="/">
       {Logo()}</a>
       <div className="pages Desk">
-        <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`} target='_blank'><Button className="NavItem">Entre em contato</Button></a>
+        <a href='/contact'><Button className="NavItem">Entre em contato</Button></a>
         <a href="https://github.com/DiegoCiara" target='_blank'><Button className="NavItem"><BsGithub className='IconButton'/>Github</Button></a>
         <a href="https://www.linkedin.com/in/diegociara" target='_blank'><Button className="NavItem"><BsLinkedin className='IconButton'/>Linkedin</Button></a>
         <a href="https://www.instagram.com/sr.ciara" target='_blank'><Button className="NavItem"><BsInstagram className='IconButton'/>Instagram</Button></a>
@@ -51,7 +51,7 @@ export function NavBar() {
             <div style={{height:'1px', width:'80%', backgroundColor:'#cacaca'}}></div>
           <List>
             <div style={{display:'flex', width:'60vw', flexDirection:'column', alignItems:'center'}}>
-        <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`} target='_blank'><Button className="NavItem">Entre em contato</Button></a>
+        <a href='/contact' ><Button className="NavItem">Entre em contato</Button></a>
         <a href="https://github.com/DiegoCiara" target='_blank'><Button className="NavItem"><BsGithub className='IconButton'/>Github</Button></a>
         <a href="https://www.linkedin.com/in/diegociara" target='_blank'><Button className="NavItem"><BsLinkedin className='IconButton'/>Linkedin</Button></a>
         <a href="https://www.instagram.com/sr.ciara" target='_blank'><Button className="NavItem"><BsInstagram className='IconButton'/>Instagram</Button></a>

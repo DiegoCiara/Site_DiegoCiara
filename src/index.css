@@ -68,6 +68,32 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+input, textarea{
+  padding: 12px;
+  border-radius: 4px;
+  outline: 1px solid transparent;
+  border: none;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  background-color: #353535;
+  color: #fff;
+  transition: .5s;
+}
+
+textarea:hover{
+  background-color: #424242;
+}
+input:hover{
+  background-color: #424242;
+}
+
+
+
+input:focus{
+  outline: 1px solid #3870ff;
+  border: none
+}
+
 @media (prefers-color-scheme: light) {
   /* :root {
     color: #213547;

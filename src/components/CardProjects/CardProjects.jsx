@@ -6,7 +6,7 @@ export function CardProjects(props){
       return null
     }else{
       return(
-        <a href={props.deploy} target="_blank"><Button variant="outlined" color="primary">Demo</Button></a>
+        <a href={props.deploy} style={{width:'100%'}} target="_blank"><Button variant="outlined" color="primary"  style={{width:'80%', fontSize:'12px'}} >Demo</Button></a>
       )
     }
   }
@@ -14,15 +14,15 @@ export function CardProjects(props){
     <div className="card">
       <img src={props.image} className="CardImage"/>
       <h2>{props.title}</h2>
-      <span style={{fontSize:'14px'}}>{props.description}</span>
-      <div style={{width:'100%', display:'flex', justifyContent:'center', padding:'15px 0'}}>
+      <span style={{fontSize:'12px'}}>{props.description}</span>
+      <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:"center", padding:'15px 0'}}>
         <span className="tag">
           {props.type}
         </span>
       </div>
-      <div className="RowButtons" style={{display:'flex', alignItems:'center', gap:'10px'}}>
-      <a href={props.link}><Button variant='contained' color='primary'>Ver projeto</Button></a>
+      <div style={{display:'flex', flexDirection:'column', alignItems:'center', gap:'10px', width:'100%', justifyContent:'center'}}>
       {ViewDeploy()}
+      <a href={props.link}  style={{width:'100%'}}><Button variant='contained' color='primary' style={{width:'80%', fontSize:'12px'}}>Ver projeto</Button></a>
       </div>
     </div>
   )

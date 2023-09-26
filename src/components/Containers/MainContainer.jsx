@@ -1,6 +1,6 @@
 import { Button } from '@material-ui/core';
 import { Profile } from "../../global/Profile";
-import { SendWhatsApp } from "../../global/utils";
+import {BsGithub, BsLinkedin, BsInstagram} from 'react-icons/bs'
 
 
 export function MainContainer() {
@@ -14,11 +14,11 @@ export function MainContainer() {
             <p>{Profile.resume}</p>
             <span>Sinta-se a vontade para se conectar comigo ou trocar uma ideia!</span>
             <div className="Row" style={{marginTop:'20px', gap:'20px'}}>
-              <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`} target='_blank'>
-                <Button className='NavItem' variant='contained' color="primary">Entre em contato</Button>
+              <a href='/contact'>
+                <Button className='NavItem' variant='contained' color="primary" >Entre em contato</Button>
               </a>
               <a href="https://github.com/DiegoCiara">
-                <Button className='NavItem' color="primary" target='_blank' variant='outlined'>Github</Button>
+                <Button className='NavItem' color="primary" target='_blank' variant='outlined'><BsGithub className='IconButton'/>Github</Button>
               </a>
                 
             </div>
