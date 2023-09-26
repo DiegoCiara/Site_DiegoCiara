@@ -20,7 +20,7 @@ export function CardProjects(props){
           {props.type}
         </span>
       </div>
-      <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
+      <div className="RowButtons" style={{display:'flex', alignItems:'center', gap:'10px'}}>
       <a href={props.link}><Button variant='contained' color='primary'>Ver projeto</Button></a>
       {ViewDeploy()}
       </div>
