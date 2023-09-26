@@ -39,7 +39,7 @@ export function Animated(props) {
   
     const cardAnimation = useSpring({
       opacity: showCard ? 1 : 1,  
-      backgroundColor: showCard? '#00000049':'#00000010',  
+      backgroundColor: showCard? '#000000cc':'#00000010',  
     });
   
     const handleScroll = () => {

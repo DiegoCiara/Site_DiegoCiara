@@ -6,7 +6,7 @@ import { SendWhatsApp } from "../../global/utils";
 export function MainContainer() {
   return(
     <>
-      <div className="Container Row Main" style={{minHeight:'100vh'}}>
+      <div className="Container Row Main">
           <div className="Box Left MainCard">
             <img src={Profile.image} className="Image_Profile"/>
             <h1 style={{marginBottom:0}}>{Profile.name}</h1>
@@ -18,7 +18,7 @@ export function MainContainer() {
                 <Button className='NavItem' variant='contained' color="primary">Entre em contato</Button>
               </a>
               <a href="https://github.com/DiegoCiara">
-                <Button className='NavItem' color="primary" variant='outlined'>Github</Button>
+                <Button className='NavItem' color="primary" target='_blank' variant='outlined'>Github</Button>
               </a>
                 
             </div>

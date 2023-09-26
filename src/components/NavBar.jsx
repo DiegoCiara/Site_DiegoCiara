@@ -2,6 +2,7 @@ import { Button, Drawer, InputAdornment, List, TextField } from '@material-ui/co
 import { Profile } from "../global/Profile"
 import { NavAnimated } from './Animated/Animated';
 import {IoMdMenu} from 'react-icons/io'
+import {BsGithub, BsLinkedin, BsInstagram} from 'react-icons/bs'
 import { useState } from 'react';
 import '/src/App.css'
 
@@ -25,13 +26,14 @@ export function NavBar() {
     <NavAnimated
     scroll={2}
     class='nav'
-    children={<>      <a href="/">
+    children={<>      
+    <a href="/">
       {Logo()}</a>
       <div className="pages Desk">
-        <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`}><Button className="NavItem">Entre em contato</Button></a>
-        <a href="https://github.com/DiegoCiara"><Button className="NavItem">Github</Button></a>
-        <a href="https://www.linkedin.com/in/diegociara"><Button className="NavItem">Linkedin</Button></a>
-        <a href="/"><Button className="NavItem">Insta</Button></a>
+        <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`} target='_blank'><Button className="NavItem">Entre em contato</Button></a>
+        <a href="https://github.com/DiegoCiara" target='_blank'><Button className="NavItem"><BsGithub className='IconButton'/>Github</Button></a>
+        <a href="https://www.linkedin.com/in/diegociara" target='_blank'><Button className="NavItem"><BsLinkedin className='IconButton'/>Linkedin</Button></a>
+        <a href="https://www.instagram.com/sr.ciara" target='_blank'><Button className="NavItem"><BsInstagram className='IconButton'/>Instagram</Button></a>
       </div>
       <div className='Mobile'>
 
@@ -49,10 +51,11 @@ export function NavBar() {
             <div style={{height:'1px', width:'80%', backgroundColor:'#cacaca'}}></div>
           <List>
             <div style={{display:'flex', width:'60vw', flexDirection:'column', alignItems:'center'}}>
-          <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`}><Button className="NavItem">Entre em contato</Button></a>
-          <a href="https://github.com/DiegoCiara"><Button className="NavItem">Git</Button></a>
-          <a href="https://www.linkedin.com/in/diegociara"><Button className="NavItem">Linkedin</Button></a>
-          <a href="https://instagram.com/sr.ciara?igshid=OGQ5ZDc2ODk2ZA==."><Button className="NavItem">Insta</Button></a>            </div>
+        <a href={`https://api.whatsapp.com/send?phone=${Profile.phone}`} target='_blank'><Button className="NavItem">Entre em contato</Button></a>
+        <a href="https://github.com/DiegoCiara" target='_blank'><Button className="NavItem"><BsGithub className='IconButton'/>Github</Button></a>
+        <a href="https://www.linkedin.com/in/diegociara" target='_blank'><Button className="NavItem"><BsLinkedin className='IconButton'/>Linkedin</Button></a>
+        <a href="https://www.instagram.com/sr.ciara" target='_blank'><Button className="NavItem"><BsInstagram className='IconButton'/>Instagram</Button></a>
+            </div>
           </List>
           <div></div>
           </div>

@@ -13,6 +13,50 @@ export const Profile ={
 }
 
 
+export const TopProjects = [
+  {
+    type:'SaaS',
+    name:'Wave CRM',
+    image:'/src/assets/CardsProjects/WaveCRM.png',
+    description:'CRM de vendas para empresas B2B',
+    path: 'https://github.com/DiegoCiara/Wave_CRM'
+  },
+  {
+    type:'Tool',
+    name:'NewsLetter',
+    image:'/src/assets/CardsProjects/Newsletter.png',
+    description:'Aplicativo de rede social para empresas',
+    path: 'https://github.com/DiegoCiara/Newsletter',
+    deploy:'https://newsletter-blue.vercel.app/'
+  },
+  {
+    type:'Tool',
+    name:'Guide',
+    image:'/src/assets/CardsProjects/Guide.png',
+    description:'Construtor de Documentação',
+    path: 'https://github.com/DiegoCiara/Guide',
+    deploy:'https://guide-two.vercel.app/',
+  },
+  {
+    type:'Mobile',
+    name:'Sinergy',
+    image:'/src/assets/CardsProjects/Sinergy.png',
+    description:'Aplicativo de rede social para empresas',
+    path: 'https://github.com/DiegoCiara/Sinergy_Mobile',
+    deploy: null,
+  },
+  {
+    type:'IA',
+    name:'Private GPT4',
+    image:'/src/assets/CardsProjects/GPT-4.jpg',
+    description:'Inteligência Artificial para processamento de linguagem utilizando o GPT-4',
+    path: 'https://github.com/DiegoCiara/privateGPT4',
+    deploy: null,
+  },
+  
+]
+
+
 export const Projects = [
   {
     type:'SaaS',
@@ -22,46 +66,20 @@ export const Projects = [
     path: 'https://github.com/DiegoCiara/Wave_CRM'
   },
   {
-    type:'Mobile',
-    name:'Sinergy',
-    image:'https://www.wavecrm.com.br/Home/mockup.svg',
-    description:'Aplicativo de rede social para empresas',
-    path: 'https://github.com/DiegoCiara/Wave_CRM'
-  },
-  {
-    type:'Mobile',
-    name:'AppBank',
-    image:'https://www.wavecrm.com.br/Home/mockup.svg',
-    description:'Aplicativo de controle financeiro pessoal',
-    path: 'https://github.com/DiegoCiara/Wave_CRM'
-  },
-  {
     type:'Tool',
     name:'NewsLetter',
     image:'https://www.wavecrm.com.br/Home/mockup.svg',
     description:'Aplicativo de rede social para empresas',
-    path: 'https://github.com/DiegoCiara/Wave_CRM'
-  },
-  {
-    type:'Tool',
-    name:'NewsLetter',
-    image:'https://www.wavecrm.com.br/Home/mockup.svg',
-    description:'Aplicativo de rede social para empresas',
-    path: 'https://github.com/DiegoCiara/Wave_CRM'
-  },
-  {
-    type:'Tool',
-    name:'NewsLetter',
-    image:'https://www.wavecrm.com.br/Home/mockup.svg',
-    description:'Aplicativo de rede social para empresas',
-    path: 'https://github.com/DiegoCiara/Newsletter'
+    path: 'https://github.com/DiegoCiara/Newsletter',
+    deploy:'https://newsletter-blue.vercel.app/'
   },
   {
     type:'Site',
     name:'Portifólio Dev',
     image:'https://www.wavecrm.com.br/Home/mockup.svg',
     description:'Site portifólio para desenvolvedores',
-    path: 'https://github.com/DiegoCiara/Portifólio'
+    path: 'https://github.com/DiegoCiara/Portifólio',
+    deploy:'https://diegociara.com.br'
   },
   {
     type:'LandingPage',
@@ -75,13 +93,35 @@ export const Projects = [
     name:'SendMail Resend',
     image:'https://github.com/DiegoCiara/Sound-App/raw/master/public/landing-page.png',
     description:'Envio de e-mails utilizando Resend',
-    path: 'https://github.com/DiegoCiara/Sound-App'
+    path: 'https://github.com/DiegoCiara/Sendmail_Resend'
+  },
+  {
+    type:'Tool',
+    name:'Guide',
+    image:'/src/assets/CardsProjects/Guide.png',
+    description:'Construtor de Documentação',
+    path: 'https://github.com/DiegoCiara/Guide',
+    deploy:'https://guide-two.vercel.app/',
+  },
+  {
+    type:'Mobile',
+    name:'Sinergy',
+    image:'/src/assets/CardsProjects/Sinergy.png',
+    description:'Aplicativo de rede social para empresas',
+    path: 'https://github.com/DiegoCiara/Sinergy_Mobile'
+  },
+  {
+    type:'Mobile',
+    name:'AppBank',
+    image:'/src/assets/CardsProjects/App-bank.png',
+    description:'Aplicativo de controle financeiro pessoal',
+    path: 'https://github.com/DiegoCiara/App-bank'
   },
   {
     type:'IA',
     name:'private GPT4',
-    image:'https://github.com/DiegoCiara/Sound-App/raw/master/public/landing-page.png',
+    image:'/src/assets/CardsProjects/GPT-4.jpg',
     description:'Inteligência Artificial para processamento de linguagem utilizando o GPT-4',
-    path: 'https://github.com/DiegoCiara/Sound-App'
+    path: 'https://github.com/DiegoCiara/privateGPT4'
   },
 ]
