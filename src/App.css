@@ -212,7 +212,6 @@
   .Container{
     min-height: 785px;
   }
-  
 }
 
 @media (min-height:950px) {
@@ -220,6 +219,10 @@
   .Main{
     height: 100vh;
   }
+  .MainContact{
+    padding-bottom: 150px;
+  }
+
   
 }
 

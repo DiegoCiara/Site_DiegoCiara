@@ -10,7 +10,7 @@ export function Contact(props){
       <h1>Contato</h1>
       <p>Veja como você pode me contatar</p>
     </div>
-    <div className="Box Form">
+    <div className="Box Form" style={{marginBottom:'100px'}}>
       <div className="form card">
         <h2>Entre em contato</h2>
         <span>Envie um e-mail utilizando o formulário abaixo</span>
