@@ -4,7 +4,7 @@ export const Profile ={
   name:'Diego Ciara',
   age:'23',
   profession:'Programador JavaScript',
-  phone:'81997052688',
+  phone:'+5581997052688',
   mail: 'diegociara.dev@gmail.com',
   github:'https://github.com/DiegoCiara',
   linkedin:'https://www.linkedin.com/in/diegociara',
