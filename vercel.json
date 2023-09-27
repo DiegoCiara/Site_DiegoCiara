@@ -5,8 +5,12 @@
       "dest": "/projects"
     },
     {
-      "src": "/about/[^.]+",
-      "dest": "/about"
+      "src": "/contact/[^.]+",
+      "dest": "/contact"
+    },
+    {
+      "src": "/mailSuccess/[^.]+",
+      "dest": "/mailSuccess"
     },
     {
       "src": "/[^.]+",

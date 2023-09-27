@@ -11,7 +11,7 @@ export function Contact(props){
       <p>Veja como você pode me contatar</p>
     </div>
     <div className="Box Form">
-      <form className="form card">              
+      <form className="form card" action="https://formsubmit.co/suporte.diegociara@gmail.com" method="POST">              
       <input type="hidden" name="_next" value="https://www.diegociara.com.br/mailSuccess"></input>
       <input type="hidden" name="_autoresponse" value="your custom message"></input>
       <input type="hidden" name="_subject" value="Mensagem do site"></input>
