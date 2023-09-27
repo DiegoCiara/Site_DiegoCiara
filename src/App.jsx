@@ -16,7 +16,7 @@ function App() {
     <ThemeProvider theme={theme}>
         <NavBar/>
           <Router>
-            <Routes>
+            <Routes> 
               <Route path='/' element={<Home/>}/>
               <Route path='/projects' element={<Projects/>}/>
               <Route path='/contact' element={<Contact class="Main Contact"/>}/>
