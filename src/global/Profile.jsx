@@ -25,7 +25,7 @@ export const TopProjects = [
     type:'Tool',
     name:'NewsLetter',
     image:'CardsProjects/Newsletter.png',
-    description:'Aplicativo de rede social para empresas',
+    description:'Cadastro de portal de notícias',
     path: 'https://github.com/DiegoCiara/Newsletter',
     deploy:'https://newsletter-blue.vercel.app/'
   },
