@@ -19,7 +19,8 @@ export const TopProjects = [
     name:'Wave CRM',
     image:'CardsProjects/WaveCRM.png',
     description:'CRM de vendas para empresas B2B',
-    path: 'https://github.com/DiegoCiara/Wave_CRM'
+    path: 'https://github.com/DiegoCiara/Wave_CRM',
+    deploy:'https://wave.wavecrm.com.br/'
   },
   {
     type:'Tool',
