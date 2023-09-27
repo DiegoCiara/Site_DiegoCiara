@@ -6,7 +6,7 @@ export function MailSuccess() {
     // Use setTimeout para redirecionar após 3 segundos
     const redirectTimer = setTimeout(() => {
       window.location.replace('/'); // Redirecione para a página inicial "/"
-    }, 3000); // 3000 milissegundos = 3 segundos
+    }, 2500); // 3000 milissegundos = 3 segundos
 
     // Lembre-se de limpar o temporizador ao desmontar o componente
     return () => {
