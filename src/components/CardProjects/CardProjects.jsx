@@ -1,5 +1,5 @@
 import { Button } from "@material-ui/core";
-import {BsGithub, BsLinkedin, BsInstagram} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs'
 
 export function CardProjects(props){
   function ViewDeploy(){
@@ -23,7 +23,7 @@ export function CardProjects(props){
       </div>
       <div style={{display:'flex', flexDirection:'column', alignItems:'center', gap:'10px', width:'100%', justifyContent:'center'}}>
       {ViewDeploy()}
-      <a href={props.link}  style={{width:'100%'}}><Button variant='contained' color='primary' style={{width:'80%', fontSize:'12px'}}><BsGitHub className="IconButton"/> Ver projeto</Button></a>
+      <a href={props.link}  style={{width:'100%'}}><Button variant='contained' color='primary' style={{width:'80%', fontSize:'12px'}}><BsGithub className="IconButton"/> Ver projeto</Button></a>
       </div>
     </div>
   )
