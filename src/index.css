@@ -91,6 +91,7 @@ input:hover{
 
 input:focus{
   border: 1px solid #3870ff;
+  border-radius: 4px;
   outline: none
 }
 
