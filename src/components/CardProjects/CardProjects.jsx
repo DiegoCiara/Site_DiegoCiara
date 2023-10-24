@@ -23,7 +23,7 @@ export function CardProjects(props){
   }
   return(
     <div className="card">
-      <img src={props.image} className="CardImage"/>
+      <img style={{display: Default? 'none': ''}} src={props.image} className="CardImage"/>
       <h2 style={{marginBottom: Default? '20px':''}}>{props.title}</h2>
       <span style={{fontSize:'12px'}}>{props.description}</span>
       <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:"center", padding:'15px 0'}}>
