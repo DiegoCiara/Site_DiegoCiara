@@ -1,4 +1,4 @@
-import { Profile } from "../global/Profile";
+import { Profile } from "../Profile";
 
 
 export function Footer(){

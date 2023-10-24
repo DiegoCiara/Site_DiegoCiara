@@ -1,10 +1,10 @@
 import { Button, Drawer, InputAdornment, List, TextField } from '@material-ui/core';
-import { Profile } from "../global/Profile"
 import { NavAnimated } from './Animated/Animated';
 import {IoMdMenu} from 'react-icons/io'
 import {BsGithub, BsLinkedin, BsInstagram} from 'react-icons/bs'
 import { useState } from 'react';
 import '/src/App.css'
+import { Profile } from '../Profile';
 
 export function NavBar() {
   

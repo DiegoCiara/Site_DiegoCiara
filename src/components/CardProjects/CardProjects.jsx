@@ -7,8 +7,16 @@ export function CardProjects(props){
       return null
     }else{
       return(
-        <a href={props.deploy} style={{width:'100%'}} target="_blank"><Button variant="outlined" color="primary"  style={{width:'80%', fontSize:'12px'}} >Demo</Button></a>
+        <a href={props.deploy} style={{width:'100%'}} target="_blank"><Button variant="contained" color="primary" size="large"  style={{width:'100%', fontSize:'12px'}} >Acessar</Button></a>
       )
+    }
+  }
+  function ViewRepository(){
+    if(props.link === null){
+      return null
+    }else{
+      return(
+        <a href={props.link}  style={{width:'100%'}}><Button variant='outlined' color='primary' size="large" style={{width:'100%', fontSize:'12px'}}><BsGithub className="IconButton"/> Ver projeto</Button></a>      )
     }
   }
   return(
@@ -22,8 +30,8 @@ export function CardProjects(props){
         </span>
       </div>
       <div style={{display:'flex', flexDirection:'column', alignItems:'center', gap:'10px', width:'100%', justifyContent:'center'}}>
+      {ViewRepository()}
       {ViewDeploy()}
-      <a href={props.link}  style={{width:'100%'}}><Button variant='contained' color='primary' style={{width:'80%', fontSize:'12px'}}><BsGithub className="IconButton"/> Ver projeto</Button></a>
       </div>
     </div>
   )

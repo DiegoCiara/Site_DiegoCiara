@@ -1,6 +1,6 @@
 import { Button } from '@material-ui/core';
-import { Profile } from "../../global/Profile";
 import {BsGithub, BsLinkedin, BsInstagram} from 'react-icons/bs'
+import { Profile } from '../../Profile';
 
 
 export function MainContainer() {
@@ -23,7 +23,7 @@ export function MainContainer() {
                 
             </div>
           </div>
-          <div>{' '}</div>
+          <div className='Box'>{' '}</div>
         </div>
     </>
   )

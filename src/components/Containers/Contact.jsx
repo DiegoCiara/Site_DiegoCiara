@@ -1,5 +1,5 @@
 import { Button, TextField } from "@mui/material";
-import { Profile } from "../../global/Profile";
+import { Profile } from "../../Profile";
 
 
 export function Contact(props){
@@ -47,7 +47,7 @@ export function Contact(props){
               style={{marginBottom:'10px'}}
               rows="4"  />
         </div>
-        <Button variant="contained" size="medium" style={{width:'100%'}} type='submit'>Enviar</Button>
+        <Button variant="contained" size="large" style={{width:'100%'}} type='submit'>Enviar</Button>
       </form>
       <div style={{display:'flex', alignItems:'center', gap:'10px', width:'100%', justifyContent:'center', marginTop:'15px'}}>
       <a href={`https://wa.me/${Profile.phone}`} target='_blank'  style={{width:'100%'}}><Button variant='outlined' color='success' style={{width:'80%', fontSize:'12px'}}> Falar no whatsApp</Button></a>
