@@ -23,7 +23,7 @@ export function AllProjects(){
           <CardProjects 
             image={null}
             title={'Veja mais repositórios'}
-            description={'Acesse meu perfil no github e veja mais projetos que eu trabalhei, ou entre em contato comigo para '}
+            description={'Acesse meu perfil no github ou me siga no linkedin para ver mais projetos que eu trabalhei'}
             type={'default'}
             link={Profile.github}
             deploy={Profile.linkedin}

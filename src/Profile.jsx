@@ -16,21 +16,20 @@ export const Profile ={
 export const TopProjects = [
   {
     type:'Website',
-    name:'União Promotora',
-    image:'CardsProjects/uniao.svg',
-    description:'Site comercial para Promotora de crédito com simulações de análise de crédito, integrado com sistema de login de usuários.',
-    path: null,
-    deploy: 'https://uniaoconsignado.com.br',
-  },
-  {
-    type:'Website',
     name:'Figio',
     image:'CardsProjects/figio.svg',
     description:'Site comercial para agência de marketing integrado com sistema de pagamentos cadastro de clientes de login de usuários.',
     path: null,
     deploy:  'https://figio.com.br',
   },
-  
+  {
+    type:'Website',
+    name:'União Promotora',
+    image:'CardsProjects/uniao.svg',
+    description:'Site comercial para Promotora de crédito com simulações de análise de crédito, integrado com sistema de login de usuários.',
+    path: null,
+    deploy: 'https://uniaoconsignado.com.br',
+  },
   {
     type:'Website',
     name:'Softspace',

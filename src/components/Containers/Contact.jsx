@@ -5,7 +5,7 @@ import { Profile } from "../../Profile";
 export function Contact(props){
   return(
     <div className={props.class} >
-  <div className={`Container MainContact`} id="Form" style={{marginBottom:'100px'}}>
+  <div className={`Container MainContact Center Full_Width`} id="Form" style={{marginBottom:'100px', alignItems:'center'}}>
     <div  className="HeigthContact">
       <h1>Contato</h1>
       <p>Veja como você pode me contatar</p>

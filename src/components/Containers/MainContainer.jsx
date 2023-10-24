@@ -14,13 +14,12 @@ export function MainContainer() {
             <p>{Profile.resume}</p>
             <span>Sinta-se a vontade para se conectar comigo ou trocar uma ideia!</span>
             <div className="Row" style={{marginTop:'20px', gap:'20px'}}>
-              <a href='/contact'>
-                <Button className='NavItem' variant='contained' color="primary" >Entre em contato</Button>
-              </a>
               <a href="https://github.com/DiegoCiara">
                 <Button className='NavItem' color="primary" target='_blank' variant='outlined'><BsGithub className='IconButton'/>Github</Button>
               </a>
-                
+              <a href='/contact'>
+                <Button className='NavItem' variant='contained' color="primary" >Entre em contato</Button>
+              </a>
             </div>
           </div>
           <div className='Box Desk'>{' '}</div>
