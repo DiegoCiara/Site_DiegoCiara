@@ -8,7 +8,7 @@ export function AllProjects(){
         <h1>Projetos</h1>
         <span className="Subtitle" style={{marginTop:'0', marginBottom:'20px'}}>Aqui estão alguns projetos que desenvolvi 💻</span>
       </div>
-      <div className="Wrap Contents" style={{justifyContent:'start'}}>
+      <div className="Wrap Contents" style={{justifyContent:'start', alignItems:'center'}}>
         {TopProjects.map((project, index) => (
           <CardProjects 
             key={index}

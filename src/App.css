@@ -140,8 +140,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 310px;
-  height: 310px;
+  width: 250px;
+  height: 300px;
   transition: .3s;
 }
 
