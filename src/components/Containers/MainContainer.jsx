@@ -23,7 +23,7 @@ export function MainContainer() {
                 
             </div>
           </div>
-          <div className='Box'>{' '}</div>
+          <div className='Box Desk'>{' '}</div>
         </div>
     </>
   )

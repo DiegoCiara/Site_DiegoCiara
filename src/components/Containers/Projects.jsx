@@ -1,4 +1,4 @@
-import { TopProjects } from "../../Profile";
+import { Profile, TopProjects } from "../../Profile";
 import { CardProjects } from "../CardProjects/CardProjects";
 
 export function AllProjects(){
@@ -8,7 +8,7 @@ export function AllProjects(){
         <h1>Projetos</h1>
         <span className="Subtitle" style={{marginTop:'0', marginBottom:'20px'}}>Aqui estão alguns projetos que desenvolvi 💻</span>
       </div>
-      <div className="Wrap Contents" style={{justifyContent:'start', alignItems:'center'}}>
+      <div className="Wrap Contents" style={{justifyContent:'space-between', alignItems:'center'}}>
         {TopProjects.map((project, index) => (
           <CardProjects 
             key={index}
@@ -20,6 +20,14 @@ export function AllProjects(){
             deploy={project.deploy}
           />
         ))}
+          <CardProjects 
+            image={null}
+            title={'Veja mais repositórios'}
+            description={'Acesse meu perfil no github e veja mais projetos que eu trabalhei, ou entre em contato comigo para '}
+            type={'default'}
+            link={Profile.github}
+            deploy={Profile.linkedin}
+          />
       </div>
     </div>
   )
