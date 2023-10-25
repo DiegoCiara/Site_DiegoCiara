@@ -63,6 +63,14 @@ export const TopProjects = [
     deploy:'https://guide-two.vercel.app/',
   },
   {
+    type:'Website',
+    name:'Credit Promotora',
+    image:'CardsProjects/credit.svg',
+    description:'Site comercial para Promotora de crédito com simulações de análise de crédito, integrado com sistema de login de usuários.',
+    path: null,
+    deploy: 'https://credit.diegociara.com.br',
+  },
+  {
     type:'Mobile',
     name:'Sinergy',
     image:'CardsProjects/sinergy.svg',
