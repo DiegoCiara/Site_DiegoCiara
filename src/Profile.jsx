@@ -63,12 +63,12 @@ export const TopProjects = [
     deploy:'https://guide-two.vercel.app/',
   },
   {
-    type:'Website',
-    name:'Credit Promotora',
-    image:'CardsProjects/credit.svg',
-    description:'Site comercial para Promotora de crédito com simulações de análise de crédito, integrado com sistema de login de usuários.',
-    path: null,
-    deploy: 'https://credit.diegociara.com.br',
+    type:'Tool',
+    name:'Tour Product',
+    image:'CardsProjects/Tour.png',
+    description:'Demonstração de Tour em uma aplicação utilizando Drive.JS',
+    path: 'https://github.com/DiegoCiara/Tour_Product',
+    deploy: 'https://tour-product.vercel.app',
   },
   {
     type:'Mobile',
